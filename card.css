@@ -75,6 +75,12 @@ div#conteudo {
     padding: 0 20px 20px 20px;
 }
 
+div#conteudo h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
 div#conteudo p {
     font-weight: 300;
     margin-top: 20px;
